@@ -1,0 +1,17 @@
+.footerbg {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* The height of the footer */
+  }
+  
+  
+  .navbarbg {
+    background-color: blueviolet;
+  }
+  
+  .homehg {
+    min-height: 620px;
+  }
+  
