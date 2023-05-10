@@ -41,10 +41,10 @@ const Piechart = () => {
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "95vw" }}>
       <h2>{coinData.name}</h2>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <div style={{ width: "50%", margin: "10px" }}>
+      <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+        <div style={{ width: "45%", margin: "10px" }}>
           <Pie
             data={chartData}
             options={{
@@ -57,7 +57,7 @@ const Piechart = () => {
             }}
           />
         </div>
-        <div style={{ width: "50%", margin: "10px" }}>
+        <div style={{ width: "45%", margin: "10px" }}>
           <Bar
             data={chartData}
             options={{
