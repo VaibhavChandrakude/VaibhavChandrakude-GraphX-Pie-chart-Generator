@@ -15,11 +15,6 @@ function Header(){
         <li className="nav-item">
           <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
         </li>
-        <li className="nav-item">
-          <Link to="/piechart" className="nav-link active" aria-current="page" >Pie Chart</Link>
-        </li>
-       
-       
       </ul>
       
     </div>
